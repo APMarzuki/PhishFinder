@@ -1,0 +1,27 @@
+Received: from [198.51.100.42] by mail.example.com with ESMTP id ABC123DEF456; Thu, 1 Oct 2025 10:00:00 +0200
+Received: from evil-smtp.net (evil-smtp.net [8.8.8.8]) by [198.51.100.42] with SMTP; Thu, 1 Oct 2025 09:59:50 +0200
+From: "Security Team" <security@trusted-bank.com>
+To: recipient@example.com
+Subject: URGENT: Your Account Has Been Suspended!
+Return-Path: <spoof_sender@evil-smtp.net>
+Message-ID: <12345.6789@evil-smtp.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear Customer,
+
+We have detected unusual activity on your account. To prevent unauthorized access, we have temporarily suspended your services.
+
+You MUST verify your credentials immediately by clicking the link below:
+
+Click here to verify: https://www.secure-login-portal.co/verify?user=victim
+(Note: This is a phishing site URL)
+
+Failure to comply within 24 hours will result in permanent closure.
+
+You can also visit: http://www.another-phish.net
+
+Thank you,
+The Security Team
+www.trusted-bank.com
